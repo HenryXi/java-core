@@ -1,4 +1,4 @@
-package com.henry.java8;
+package com.henry.java.core;
 
 public class QuickStart {
     public static void main(String[] args) {

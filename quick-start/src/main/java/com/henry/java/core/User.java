@@ -1,4 +1,4 @@
-package com.henry.java8;
+package com.henry.java.core;
 
 public class User {
     private int id;

@@ -4,13 +4,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.henry.java.core</groupId>
+    <groupId>com.henryxi.java.core</groupId>
     <artifactId>java-core</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>quick-start</module>
         <module>read-file</module>
+        <module>character-encoding</module>
     </modules>
     <packaging>pom</packaging>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

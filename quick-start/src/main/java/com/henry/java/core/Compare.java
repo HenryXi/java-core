@@ -1,4 +1,4 @@
-package com.henry.java8;
+package com.henry.java.core;
 
 import java.util.ArrayList;
 import java.util.Collections;
