@@ -13,6 +13,7 @@
         <module>character-encoding</module>
         <module>string</module>
         <module>collection</module>
+        <module>draw</module>
     </modules>
     <packaging>pom</packaging>
     <build>

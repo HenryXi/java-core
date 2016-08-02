@@ -14,12 +14,15 @@ public class TestSet {
         }
 
         String target1 = (String) setStr.toArray()[0];
+        System.out.println(target1);
 
         List<String> listStr = new ArrayList<>();
         listStr.addAll(setStr);
         String target2 = listStr.get(0);
+        System.out.println(target2);
 
         String target3 = setStr.iterator().next();
+        System.out.println(target3);
     }
 }
 ```
