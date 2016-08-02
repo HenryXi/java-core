@@ -11,6 +11,8 @@
         <module>quick-start</module>
         <module>read-file</module>
         <module>character-encoding</module>
+        <module>string</module>
+        <module>collection</module>
     </modules>
     <packaging>pom</packaging>
     <build>
