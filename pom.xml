@@ -14,6 +14,7 @@
         <module>string</module>
         <module>collection</module>
         <module>draw</module>
+        <module>thread</module>
     </modules>
     <packaging>pom</packaging>
     <build>
