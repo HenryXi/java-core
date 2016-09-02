@@ -15,6 +15,7 @@
         <module>java-core-collection</module>
         <module>java-core-draw</module>
         <module>java-core-misc</module>
+        <module>java-core-thread</module>
     </modules>
     <packaging>pom</packaging>
     <build>
