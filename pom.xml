@@ -17,6 +17,7 @@
         <module>java-core-misc</module>
         <module>java-core-thread</module>
         <module>java-core-reflection</module>
+        <module>java-core-serialize</module>
     </modules>
     <packaging>pom</packaging>
     <build>
