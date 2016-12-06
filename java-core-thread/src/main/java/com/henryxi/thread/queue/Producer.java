@@ -1,12 +1,13 @@
 package com.henryxi.thread.queue;
 
+import java.util.UUID;
 import java.util.concurrent.BlockingQueue;
 
-public class LinkedBlockingQueueConsumer implements Runnable {
+public class Producer implements Runnable {
 
     protected BlockingQueue<String> blockingQueue;
 
-    public LinkedBlockingQueueConsumer(BlockingQueue<String> queue) {
+    public Producer(BlockingQueue<String> queue) {
         this.blockingQueue = queue;
     }
 
@@ -14,14 +15,13 @@ public class LinkedBlockingQueueConsumer implements Runnable {
     public void run() {
         while (true) {
             try {
-                String data = blockingQueue.take();
-                System.out.println(Thread.currentThread().getName()
-                        + " take(): " + data);
-                Thread.sleep(1000);
+                String data = UUID.randomUUID().toString();
+                blockingQueue.put(data);
+                System.out.println("put in :" + data + ", total:" + blockingQueue.size());
+                Thread.sleep(300);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
     }
-
 }
