@@ -35,9 +35,9 @@ public class FutureClient {
 
 The output is like following.
 ```
-this is main thread, after submitting callable class. state of callable:false
-this is callable class , I am running
-this is callable class , I am stopping
-this is main thread, after 3 seconds. state of callable:true
-the result of callable class:callable result
+this is main thread, after submitting callable class. state of task:false
+this is task class , I am running
+this is task class , I am stopping
+this is main thread, after 3 seconds. state of task:true
+the result of task class:task result
 ```
