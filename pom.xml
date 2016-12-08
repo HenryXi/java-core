@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>java-core-quick-start</module>
-        <module>java-core-read-file</module>
+        <module>java-core-io</module>
         <module>java-core-character-encoding</module>
         <module>java-core-string</module>
         <module>java-core-collection</module>
