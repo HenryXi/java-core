@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>java-core-quick-start</artifactId>
+    <artifactId>java-core-util</artifactId>
 
 
 </project>

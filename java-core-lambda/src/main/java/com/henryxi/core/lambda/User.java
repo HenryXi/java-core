@@ -1,4 +1,4 @@
-package com.henry.java.core;
+package com.henryxi.core.lambda;
 
 public class User {
     private int id;

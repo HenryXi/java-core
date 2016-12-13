@@ -1,4 +1,4 @@
-package com.henry.java.core;
+package com.henryxi.core.lambda;
 
 public class QuickStart {
     public static void main(String[] args) {
