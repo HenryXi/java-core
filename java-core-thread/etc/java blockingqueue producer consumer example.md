@@ -33,6 +33,7 @@ public class Producer implements Runnable {
 ```
 
 **Consumer**
+
 Consumer gets the product from `BlockingQueue` and consumes it. The method `blockingQueue.take()` will get the product
 and remove it from queue. If there is no product in queue consumer thread will be blocked to waiting for product to
 consume.
