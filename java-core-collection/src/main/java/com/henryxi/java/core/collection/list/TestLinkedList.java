@@ -1,4 +1,4 @@
-package com.henryxi.java.core.collection;
+package com.henryxi.java.core.collection.list;
 
 import java.util.LinkedList;
 import java.util.List;

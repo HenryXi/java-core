@@ -1,4 +1,4 @@
-package com.henryxi.java.core.collection;
+package com.henryxi.java.core.collection.set;
 
 import java.util.LinkedHashSet;
 

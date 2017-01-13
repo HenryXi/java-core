@@ -1,4 +1,4 @@
-package com.com.henryxi.core.util.compare;
+package com.henryxi.core.util.compare;
 
 import java.util.Comparator;
 
