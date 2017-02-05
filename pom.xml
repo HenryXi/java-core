@@ -19,6 +19,7 @@
         <module>java-core-reflection</module>
         <module>java-core-serialize</module>
         <module>java-core-lambda</module>
+        <module>java-core-lang</module>
     </modules>
     <packaging>pom</packaging>
     <build>
