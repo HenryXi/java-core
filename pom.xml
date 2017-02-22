@@ -20,6 +20,7 @@
         <module>java-core-serialize</module>
         <module>java-core-lambda</module>
         <module>java-core-lang</module>
+        <module>java-core-math</module>
     </modules>
     <packaging>pom</packaging>
     <build>
