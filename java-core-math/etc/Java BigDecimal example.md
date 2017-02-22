@@ -38,3 +38,10 @@ public class TestBigDecimal {
     }
 }
 ```
+The output is like following.
+```
+float result:3.7400002, decimal result:3.74
+float result:-1.0599999999999998, decimal result:-1.06
+float result:3.216, decimal result:3.216
+float result:0.5583333333333333, decimal result:0.55
+```
