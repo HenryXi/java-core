@@ -1,4 +1,4 @@
-package com.henryxi.string;
+package com.henryxi.java.core.lang;
 
 public class StringBufferTest {
     public static void main(String[] args) {

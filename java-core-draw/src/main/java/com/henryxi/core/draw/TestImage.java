@@ -3,6 +3,9 @@ package com.henryxi.core.draw;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.awt.image.BufferedImageOp;
+import java.awt.image.ConvolveOp;
+import java.awt.image.Kernel;
 import java.io.File;
 import java.io.IOException;
 
@@ -61,9 +64,9 @@ public class TestImage {
      * Test resizing images
      */
     public static void main(String[] args) {
-        String inputImagePath = "C:\\Users\\Administrator\\Desktop\\test.jpg";
-        String outputImagePath1 = "C:\\Users\\Administrator\\Desktop\\new.jpg";
-
+        String inputImagePath = "http://img.w.xk.miui.com/96d886f5e4adab643268906c77eeae76.jpg";
+        String outputImagePath1 = "C:\\Users\\Administrator\\Desktop\\blur_new.jpg";
+//        Base64.encode(FileUtils.readFileToByteArray(file))
         try {
             // resize smaller by 50%
             double percent = 0.05;

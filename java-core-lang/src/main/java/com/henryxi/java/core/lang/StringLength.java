@@ -1,4 +1,4 @@
-package com.henryxi.string;
+package com.henryxi.java.core.lang;
 
 import java.util.StringJoiner;
 
