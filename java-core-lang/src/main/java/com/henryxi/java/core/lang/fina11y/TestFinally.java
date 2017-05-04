@@ -1,4 +1,4 @@
-package com.henryxi.java.core.lang;
+package com.henryxi.java.core.lang.fina11y;
 
 public class TestFinally {
     public static void main(String[] args) throws Exception {
