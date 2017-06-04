@@ -1,22 +1,23 @@
 package com.henryxi.java.core.collection.util;
 
-import com.google.common.base.Function;
-import com.google.common.collect.Maps;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 
 public class Client {
     public static void main(String[] args) {
         List<User> userList = new ArrayList<>();
-        Map<String, User> mappedRoles = Maps.uniqueIndex(userList, new Function<User, String>() {
-            public String apply(User from) {
-                return from.getName(); // or something else
-            }
-        });
-    }
+        userList.add(new User(1, "Henry"));
+        userList.add(new User(2, "Justin"));
 
-    //todo write convert method by own
+        Map<Object, User> mapByStream = userList.stream().collect(Collectors.toMap(User::getId, User -> User));
+        System.out.println(mapByStream);
+
+        Map<Object, User> mapByConverter = Converter.convertListToMap(userList, User::getId);
+        System.out.println(mapByConverter);
+
+
+    }
 }
