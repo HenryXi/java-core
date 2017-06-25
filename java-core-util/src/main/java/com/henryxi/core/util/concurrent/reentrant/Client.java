@@ -7,7 +7,7 @@ public class Client {
             @Override
             public void run() {
                 while (true){
-                    worker.execute();
+                    worker.execute(3000);
                 }
             }
         }.start();
@@ -15,7 +15,7 @@ public class Client {
             @Override
             public void run() {
                 while (true){
-                    worker.execute();
+                    worker.execute(3000);
                 }
             }
         }.start();
