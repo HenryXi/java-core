@@ -19,6 +19,7 @@ public class ExecuteCommand {
     }
 }
 ```
-We can get the execute result from `Process` class. 
+We can get the execute result(`process.getInputStream()`) or the error(`process.getErrorStream()`) message 
+from `Process` class. 
 
 EOF
