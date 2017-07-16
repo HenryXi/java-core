@@ -1,6 +1,6 @@
 # Java CountDownLatch example
 In java, if you want do something after multiple threads finish `CountDownLatch` might help you. This class can
- help you count how many threads is finished. If there is no thread running it will week up the main thread.
+ help you count how many threads is finished. If there is no thread running, it will wake up the main thread.
 The code example is like following.
 ```java
 public class Worker implements Runnable {
@@ -42,7 +42,7 @@ public class CountDownLatchClient {
 `final CountDownLatch latch = new CountDownLatch(2)` means this latch waiting for 2 threads finish. `latch.await()`
 in the client will block the main thread until both workers are finished. Both `Worker` accept the instance of `CountDownLatch`, 
 when workers finish they will invoke the `countDown` method. This method will decrease the count in the latch. 
-When the count of latch becomes 0 the main thread will be week up.
+When the count of latch becomes 0 the main thread will be waked up.
 
 The output is like following.
 ```
