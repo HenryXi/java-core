@@ -97,7 +97,7 @@ thread Thread-0 wake up: other threads finish work
 **3.Reuse CyclicBarrier**
 
 Comparing with `CountDownLatch` the advantage of `CyclicBarrier` is reusable. You can define `Cyclicbarrier` 
-with 4 parties and create 8 threads. The barrier will open when 4 threads are waiting and it will open again
+with 4 parties and create 8 threads. The barrier will open when first 4 threads are waiting and it will open again
  for next 4 waiting threads.
 ```java
 public class CyclicBarrierReuseClient {
