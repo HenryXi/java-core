@@ -1,6 +1,6 @@
 # Java execute command get output example
 The `getInputStream()` method of `Process` return the result of what you executed. If there is an error when you 
-invoke the command with `Process` use `getErrorStream()` to get the information. The example code is here.
+invoke the command with `Process`, using `getErrorStream()` to get the information. The example code is here.
 ```java
 public class ExecuteCommand {
     public static void main(String[] args) throws Exception {
