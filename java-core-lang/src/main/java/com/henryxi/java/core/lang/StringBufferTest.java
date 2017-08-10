@@ -5,12 +5,15 @@ public class StringBufferTest {
         StringBuilder a = new StringBuilder("a");
         StringBuilder b = new StringBuilder("b");
         show(a, b);
-        System.out.println(a + "******" + b);
+        System.out.println(a + " ****** " + b);
     }
 
     private static void show(final StringBuilder a, StringBuilder b) {
         a.append(b);
+        System.out.println(a + " ****** " + b);
         b = a;
+        System.out.println(a + " ****** " + b);
         b.append(a);
+        System.out.println(a + " ****** " + b);
     }
 }
