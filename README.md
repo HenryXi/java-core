@@ -1,4 +1,4 @@
-# Java core
+# Java core tutorial
 This series of blog describes mainly how to use common classes of JDK.
 
 **`java.io`**
