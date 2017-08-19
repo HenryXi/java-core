@@ -10,14 +10,6 @@
     <modules>
         <module>java-core-util</module>
         <module>java-core-io</module>
-        <module>java-core-character-encoding</module>
-        <module>java-core-collection</module>
-        <module>java-core-draw</module>
-        <module>java-core-misc</module>
-        <module>java-core-thread</module>
-        <module>java-core-reflection</module>
-        <module>java-core-serialize</module>
-        <module>java-core-lambda</module>
         <module>java-core-lang</module>
         <module>java-core-math</module>
     </modules>
