@@ -12,6 +12,7 @@
         <module>java-core-io</module>
         <module>java-core-lang</module>
         <module>java-core-math</module>
+        <module>java-core-security</module>
     </modules>
     <packaging>pom</packaging>
     <build>
