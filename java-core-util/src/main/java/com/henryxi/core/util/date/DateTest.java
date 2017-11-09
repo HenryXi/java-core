@@ -1,4 +1,4 @@
-package com.henryxi.core.util;
+package com.henryxi.core.util.date;
 
 import java.time.LocalDateTime;
 import java.util.Calendar;
