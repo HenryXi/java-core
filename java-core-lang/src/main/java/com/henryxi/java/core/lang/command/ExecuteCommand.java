@@ -1,4 +1,4 @@
-package com.henryxi.java.core.lang;
+package com.henryxi.java.core.lang.command;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
