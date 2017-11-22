@@ -13,6 +13,7 @@
         <module>java-core-lang</module>
         <module>java-core-math</module>
         <module>java-core-security</module>
+        <module>java-core-net</module>
     </modules>
     <packaging>pom</packaging>
     <build>
