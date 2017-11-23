@@ -38,3 +38,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Understand ThreadPoolExecutor core and maximum](http://www.henryxi.com/understand-threadpoolexecutor-core-and-maximum)
 * [Java Executors newCachedThreadPool example](http://www.henryxi.com/java-executors-newcachedthreadpool-example)
 * [Java Executors newFixedThreadPool example](http://www.henryxi.com/java-executors-newfixedthreadpool-example)
+
+**`java.net`**
+
+* [Java URL decode encode example](http://www.henryxi.com/java-url-decode-encode-example)
