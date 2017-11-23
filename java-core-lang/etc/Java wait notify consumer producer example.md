@@ -112,6 +112,6 @@ public class Consumer implements Runnable {
 
 * `wait` method will release the currently acquired lock, and block current thread.
 * `notify` method will wake up one thread (randomly select one) which blocked by the lock, and if all goes well this thread will get the lock.
-* `notifyAll` method will wake up all thread which blocked by the lock, and highest priority one will get the lock.
+* `notifyAll` method will wake up all thread which blocked by the lock, and highest priority one will get the lock, and if all goes well this thread will get the lock.
 
 EOF
