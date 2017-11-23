@@ -2,7 +2,9 @@
 `wait`, `notify` and `notifyAll` are all method of `Object`. It means that every object in java can be a lock monitor.
 When you use `synchronized` you get the lock of object. Use `synchronized` on the method current thread will get the 
 lock of instance. If you add `synchronized` on a static method that means current thread will get the lock of this `Class`.
-As we all known, `BlockingQueue` can help you to implement "producer-consumer" model (you can click []() for more detail).
+These 3 methods can not be used without `synchronized` (you can release the lock without geting it). 
+
+As we all known, `BlockingQueue` can help you to implement "producer-consumer" model (you can click [Java blockingqueue producer consumer example](http://www.henryxi.com/java-blockingqueue-producer-consumer-example) for more detail).
 In this page I will show you how to use `wait` and `notify` to implement "producer-consumer" model.
 
 **code**
