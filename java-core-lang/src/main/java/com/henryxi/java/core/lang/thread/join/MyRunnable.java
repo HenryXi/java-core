@@ -1,4 +1,4 @@
-package com.henryxi.java.core.lang.thread;
+package com.henryxi.java.core.lang.thread.join;
 
 public class MyRunnable implements Runnable {
     @Override
