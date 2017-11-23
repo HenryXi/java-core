@@ -20,7 +20,7 @@ public class Warehouse {
             } while (true);
             products.add(product);
             System.out.println("current size:" + products.size());
-            products.notifyAll();
+            products.notify();
         }
     }
 
@@ -35,7 +35,7 @@ public class Warehouse {
             } while (true);
             int tobeSoldIndex = random.nextInt(products.size());
             Product removedProduct = products.remove(tobeSoldIndex);
-            products.notifyAll();
+            products.notify();
             System.out.println("current size:" + products.size());
             return removedProduct;
         }
