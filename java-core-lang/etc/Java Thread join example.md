@@ -8,7 +8,7 @@ Main thread-->----->----->----->--block##########continue--->---->
                  \                 |               |
 sub thread start()\                | join()        |
                    \               |               |
-                    ---sub thread----->---->---->----finish    
+                    ---sub thread----->--->--->--finish    
 ``` 
 
 **code*
