@@ -54,3 +54,5 @@ randomIntBiggerOrEqualThen2LessThan5:4
 * `nextInt()` return random int value
 * `nextInt(int num)` return the random value between 0 and num(exclude).
 * `nextInt(int num1,int num2)` return the random value between num1 and num2(exclude).
+
+EOF
