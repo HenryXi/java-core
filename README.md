@@ -15,6 +15,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java stringbuilder remove last character](http://www.henryxi.com/java-stringbuilder-remove-last-character)
 * [Java understand NoClassDefFoundError](http://www.henryxi.com/java-understand-noclassdeffounderror)
 * [Java wait notify consumer producer example](http://www.henryxi.com/java-wait-notify-consumer-producer-example)
+* [Java Thread join example](http://www.henryxi.com/java-thread-join-example)
 
 **`java.math`**
 
