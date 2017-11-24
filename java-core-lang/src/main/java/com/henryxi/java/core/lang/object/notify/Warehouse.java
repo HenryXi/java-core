@@ -1,4 +1,4 @@
-package com.henryxi.java.core.lang.thread.notify;
+package com.henryxi.java.core.lang.object.notify;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.henryxi.java.core.lang.thread.notify;
+package com.henryxi.java.core.lang.object.notify;
 
 public class Product {
     private String name;

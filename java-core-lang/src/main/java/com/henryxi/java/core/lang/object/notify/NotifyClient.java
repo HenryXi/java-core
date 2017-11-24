@@ -1,4 +1,4 @@
-package com.henryxi.java.core.lang.thread.notify;
+package com.henryxi.java.core.lang.object.notify;
 
 public class NotifyClient {
     public static void main(String[] args) {

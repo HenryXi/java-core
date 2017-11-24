@@ -1,41 +1,17 @@
 package com.henryxi.java.core.lang.thread.join;
 
 public class ThreadJoinClient {
-    public static void main(String[] args) {
-        Thread t1 = new Thread(new MyRunnable(), "t1");
-        Thread t2 = new Thread(new MyRunnable(), "t2");
-        Thread t3 = new Thread(new MyRunnable(), "t3");
-
+    public static void main(String[] args) throws InterruptedException {
+        System.out.println("main thread start");
+        Thread t1 = new SubThreadNeed4Seconds("t1");
         t1.start();
-
-        //start second thread after waiting for 2 seconds or if it's dead
-        try {
-            t1.join(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
+        System.out.println("main thread wait t1 finish");
+        t1.join();
+        System.out.println("main thread after t1.join()");
+        Thread t2 = new SubThreadNeed4Seconds("t2");
         t2.start();
-
-        //start third thread only when first thread is dead
-        try {
-            t1.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        t3.start();
-
-        //let all threads finish execution before finishing main thread
-        try {
-            t1.join();
-            t2.join();
-            t3.join();
-        } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-
-        System.out.println("All threads are dead, exiting main thread");
+        System.out.println("main thread wait t2 1 second, if t2 not finish continue");
+        t2.join(1000);
+        System.out.println("main thread after t2.join(1000)");
     }
 }
