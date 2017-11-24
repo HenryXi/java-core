@@ -7,7 +7,7 @@ public class RandomClient {
         Random random = new Random();
         for (int i = 0; i < 100; i++) {
             System.out.println(random.nextInt(2));
-            System.out.println(random.nextInt(4));
+//            System.out.println(random.nextInt(4));
         }
     }
 }
