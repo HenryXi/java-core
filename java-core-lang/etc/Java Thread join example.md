@@ -11,7 +11,7 @@ sub thread start()\                | join()        |
                     ---sub thread----->--->--->--finish    
 ``` 
 
-**code*
+**code**
 ```java
 public class SubThreadNeed4Seconds extends Thread {
     public SubThreadNeed4Seconds(String name) {
