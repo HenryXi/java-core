@@ -48,6 +48,11 @@ Super block
 Super constructor
 Child block
 Child constructor
+----init second child----
+Super block
+Super constructor
+Child block
+Child constructor
 ```
 
 There are several rules when initializing fields
