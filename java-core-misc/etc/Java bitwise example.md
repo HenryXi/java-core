@@ -1,5 +1,5 @@
 # Java bitwise example
-Java provide several bitwise operators: `&`, `|`, `^` and `~`. This page show you how to use them.
+Java provides several bitwise operators: `&`, `|`, `^` and `~`. This page shows you how to use them.
 ```java
 public class BitwiseClient {
     public static void main(String[] args) {
