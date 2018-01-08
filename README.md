@@ -49,3 +49,4 @@ This series of blog describes mainly how to use common classes of JDK.
 **misc**
 
 * [Java initializing fields order](http://www.henryxi.com/java-initializing-fields-order)
+* [Java bitwise example](http://www.henryxi.com/java-bitwise-example)
