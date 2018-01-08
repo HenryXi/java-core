@@ -35,9 +35,9 @@ public class BitwiseClient {
 ```
 **summary**
 
-* `&`: same return 1 else return 0;
+* `&`: both are 1 return 1 else return 0;
 * `|`: any one is 1 return 1 else return 0;
-* `^`: different return 1 else return 0;
+* `^`: different return 1, same return 0;
 * `~`: 1 return 0 , 0 return 1;
 
 EOF
