@@ -4,7 +4,7 @@ public class BlockedState implements ThreadState {
     private static volatile boolean still_running = true;
 
     @Override
-    public void print() {
+    public void printStateInfo() {
 
         Thread blockState1 = new Thread(this::syncMethod);
         blockState1.start();

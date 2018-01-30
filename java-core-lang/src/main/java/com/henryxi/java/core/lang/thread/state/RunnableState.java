@@ -4,7 +4,7 @@ public class RunnableState implements ThreadState {
     private static volatile boolean stillRunning = true;
 
     @Override
-    public void print() {
+    public void printStateInfo() {
         Thread startState = new Thread() {
             @Override
             public void run() {

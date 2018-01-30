@@ -5,21 +5,21 @@ public class ThreadStateClient {
 
     public static void main(String[] args) throws InterruptedException {
         ThreadState newState = new NewState();
-        newState.print();
+        newState.printStateInfo();
 
         ThreadState runnableState = new RunnableState();
-        runnableState.print();
+        runnableState.printStateInfo();
 
         ThreadState blockedState = new BlockedState();
-        blockedState.print();
+        blockedState.printStateInfo();
 
         ThreadState waitingState = new WaitingState();
-        waitingState.print();
+        waitingState.printStateInfo();
 
         ThreadState timedWaitingState = new TimedWaiting();
-        timedWaitingState.print();
+        timedWaitingState.printStateInfo();
 
         ThreadState terminatedState = new TerminatedState();
-        terminatedState.print();
+        terminatedState.printStateInfo();
     }
 }

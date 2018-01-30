@@ -5,7 +5,7 @@ public class WaitingState implements ThreadState {
     private final Object monitor = new Object();
 
     @Override
-    public void print() {
+    public void printStateInfo() {
         Thread waitingThread = new Thread(this::waitMethod);
         waitingThread.start();
         do {

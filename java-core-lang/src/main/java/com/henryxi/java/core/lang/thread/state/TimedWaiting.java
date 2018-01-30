@@ -2,7 +2,7 @@ package com.henryxi.java.core.lang.thread.state;
 
 public class TimedWaiting implements ThreadState {
     @Override
-    public void print() {
+    public void printStateInfo() {
         Thread timedWaiting = new Thread(this::waitMethod);
         timedWaiting.start();
         do {
