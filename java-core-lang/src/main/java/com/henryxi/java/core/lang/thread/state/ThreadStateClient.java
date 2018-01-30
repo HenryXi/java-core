@@ -2,7 +2,6 @@ package com.henryxi.java.core.lang.thread.state;
 
 public class ThreadStateClient {
 
-
     public static void main(String[] args) throws InterruptedException {
         ThreadState newState = new NewState();
         newState.printStateInfo();
