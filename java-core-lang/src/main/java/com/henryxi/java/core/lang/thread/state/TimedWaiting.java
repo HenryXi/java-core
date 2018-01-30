@@ -1,6 +1,6 @@
 package com.henryxi.java.core.lang.thread.state;
 
-public class TimedWaiting implements PrintThreadState {
+public class TimedWaiting implements ThreadState {
     @Override
     public void print() {
         Thread timedWaiting = new Thread(this::waitMethod);

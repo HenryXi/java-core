@@ -4,22 +4,22 @@ public class ThreadStateClient {
 
 
     public static void main(String[] args) throws InterruptedException {
-        PrintThreadState newState = new NewState();
+        ThreadState newState = new NewState();
         newState.print();
 
-        PrintThreadState runnableState = new RunnableState();
+        ThreadState runnableState = new RunnableState();
         runnableState.print();
 
-        PrintThreadState blockedState = new BlockedState();
+        ThreadState blockedState = new BlockedState();
         blockedState.print();
 
-        PrintThreadState waitingState = new WaitingState();
+        ThreadState waitingState = new WaitingState();
         waitingState.print();
 
-        PrintThreadState timedWaitingState = new TimedWaiting();
+        ThreadState timedWaitingState = new TimedWaiting();
         timedWaitingState.print();
 
-        PrintThreadState terminatedState = new TerminatedState();
+        ThreadState terminatedState = new TerminatedState();
         terminatedState.print();
     }
 }

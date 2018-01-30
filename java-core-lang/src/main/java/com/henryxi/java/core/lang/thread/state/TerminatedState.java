@@ -1,6 +1,6 @@
 package com.henryxi.java.core.lang.thread.state;
 
-public class TerminatedState implements PrintThreadState {
+public class TerminatedState implements ThreadState {
     @Override
     public void print() {
         Thread terminated = new Thread();

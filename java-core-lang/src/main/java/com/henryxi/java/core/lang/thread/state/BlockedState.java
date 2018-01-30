@@ -1,6 +1,6 @@
 package com.henryxi.java.core.lang.thread.state;
 
-public class BlockedState implements PrintThreadState {
+public class BlockedState implements ThreadState {
     private static volatile boolean still_running = true;
 
     @Override

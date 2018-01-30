@@ -1,6 +1,6 @@
 package com.henryxi.java.core.lang.thread.state;
 
-public class WaitingState implements PrintThreadState {
+public class WaitingState implements ThreadState {
 
     private final Object monitor = new Object();
 
