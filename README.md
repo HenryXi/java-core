@@ -16,6 +16,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java understand NoClassDefFoundError](http://www.henryxi.com/java-understand-noclassdeffounderror)
 * [Java wait notify consumer producer example](http://www.henryxi.com/java-wait-notify-consumer-producer-example)
 * [Java Thread join example](http://www.henryxi.com/java-thread-join-example)
+* [Java Thread state example](http://www.henryxi.com/java-thread-state-example)
 
 **`java.math`**
 
