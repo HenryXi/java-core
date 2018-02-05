@@ -8,7 +8,7 @@ This series of blog describes mainly how to use common classes of JDK.
 
 **`java.lang`**
 
-* [Java dynamic proxy example](http://www.henryxi.com/java-execute-command-example)
+* [Java execute command example](http://www.henryxi.com/java-execute-command-example)
 * [Java execute command get output example](http://www.henryxi.com/java-execute-command-get-output-example)
 * [Java finally example](http://www.henryxi.com/java-finally-example)
 * [Java isAssignableFrom example](http://www.henryxi.com/java-isassignablefrom-example)
