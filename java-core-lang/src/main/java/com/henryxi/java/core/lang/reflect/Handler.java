@@ -3,20 +3,20 @@ package com.henryxi.java.core.lang.reflect;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-public class ProxyImpl implements InvocationHandler {
+public class Handler implements InvocationHandler {
     private Interface sub;
 
-    public ProxyImpl() {
+    public Handler() {
     }
 
-    public ProxyImpl(Interface obj) {
+    public Handler(Interface obj) {
         sub = obj;
     }
 
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        System.out.println("before calling " + method);
+        System.out.println("before calling real method:" + method.getName());
         method.invoke(sub, args);
-        System.out.println("after calling " + method);
+        System.out.println("after calling real method:" + method.getName());
         return null;
     }
 }
