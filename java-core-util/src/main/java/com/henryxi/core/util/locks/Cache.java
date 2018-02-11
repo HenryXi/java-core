@@ -31,7 +31,7 @@ public class Cache {
         try {
             writeLock.lock();
             System.out.println("block all read thread for setting data to new value");
-            Thread.sleep(2000);
+            Thread.sleep(5000);
             cacheValue = random.nextInt(100);
         } catch (Exception e) {
             e.printStackTrace();
