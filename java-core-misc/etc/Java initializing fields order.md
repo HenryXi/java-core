@@ -55,7 +55,7 @@ Child block
 Child constructor
 ```
 
-There are several rules when initializing fields.
+There are several rules when initializing fields
 1. `static-block` will executed before the **Object** first used.
 2. `block` will executed firstly when the instance is created.
 3. `constructor` will executed when all `block`(static and normal `block`) execute finish. 
