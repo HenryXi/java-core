@@ -1,4 +1,4 @@
-package com.henryxi.core.misc.construct;
+package com.henryxi.core.misc.construct.block;
 
 public class Child extends Super {
     public Child() {

@@ -1,4 +1,4 @@
-package com.henryxi.core.misc.construct;
+package com.henryxi.core.misc.construct.block;
 
 public class Client {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.henryxi.core.misc.construct;
+package com.henryxi.core.misc.construct.static_field;
 
 public class Super {
     public Super() {
@@ -10,6 +10,6 @@ public class Super {
     }
 
     static {
-        System.out.println("static Super");
+        System.out.println("Super static");
     }
 }
