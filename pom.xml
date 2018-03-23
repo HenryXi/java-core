@@ -15,6 +15,7 @@
         <module>java-core-security</module>
         <module>java-core-net</module>
         <module>java-core-misc</module>
+        <module>java-core-time</module>
     </modules>
     <packaging>pom</packaging>
     <build>
