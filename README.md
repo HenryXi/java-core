@@ -51,6 +51,10 @@ This series of blog describes mainly how to use common classes of JDK.
 
 * [Java URL decode encode example](http://www.henryxi.com/java-url-decode-encode-example)
 
+**`java.time`**
+
+* [Java8 calculate time difference milliseconds](http://www.henryxi.com/java8-calculate-time-difference-milliseconds)
+
 **misc**
 
 * [Java initializing fields order](http://www.henryxi.com/java-initializing-fields-order)
