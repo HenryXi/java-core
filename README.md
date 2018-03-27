@@ -19,6 +19,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java Thread state example](http://www.henryxi.com/java-thread-state-example)
 * [Java dynamic proxy example](http://www.henryxi.com/java-dynamic-proxy-example)
 * [Java create deadlock example](http://www.henryxi.com/java-create-deadlock-example)
+* [Java clone example](http://www.henryxi.com/java-clone-example)
 
 **`java.math`**
 
