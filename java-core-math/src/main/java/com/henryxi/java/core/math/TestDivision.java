@@ -1,4 +1,4 @@
-package com.henryxi.java.core.lang;
+package com.henryxi.java.core.math;
 
 import java.math.BigDecimal;
 
