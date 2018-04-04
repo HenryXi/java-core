@@ -47,6 +47,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java ThreadLocalRandom example](http://www.henryxi.com/java-threadlocalrandom-example)
 * [Java read write lock example](http://www.henryxi.com/java-read-write-lock-example)
 * [Java retainAll example](http://www.henryxi.com/java-retainall-example)
+* [Java CopyOnWriteArrayList example](http://www.henryxi.com/java-copyonwritearraylist-example)
 
 **`java.net`**
 
