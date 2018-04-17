@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.concurrent.RecursiveTask;
 
 public class CountTask extends RecursiveTask<Long> {
-
+    private static final int MIN_COUNT = 1_000_000;
     private long begin;
     private long end;
 
@@ -17,15 +17,15 @@ public class CountTask extends RecursiveTask<Long> {
 
     @Override
     protected Long compute() {
-        if (end - begin < 100_000) {
+        if (end - begin < MIN_COUNT) {
             return computeDirectly();
         }
         long count = end - begin + 1;
-        long parts = count / 100_000;
+        long parts = count / MIN_COUNT;
         List<CountTask> countTaskList = new LinkedList<>();
         for (int i = 1; i <= parts; i++) {
-            int begin = 100_000 * (i - 1) + 1;
-            int end = 100_000 * i;
+            int begin = MIN_COUNT * (i - 1) + 1;
+            int end = MIN_COUNT * i;
             //System.out.println("task" + i + ", begin:" + begin + ", end:" + end);
             countTaskList.add(new CountTask(begin, end));
         }

@@ -6,7 +6,7 @@ import java.util.concurrent.ForkJoinPool;
 public class ForkJoinTaskClient {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         long begin = 1;
-        long end = 10_000_000_000L;
+        long end = 1_000_000_000L;
         long directlyBeginTime = System.currentTimeMillis();
         Long directlyResult = computeDirectly(begin, end);
         long directlyEndTime = System.currentTimeMillis();
