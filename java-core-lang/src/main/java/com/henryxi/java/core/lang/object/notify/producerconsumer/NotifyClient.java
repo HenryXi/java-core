@@ -1,4 +1,4 @@
-package com.henryxi.java.core.lang.object.notify;
+package com.henryxi.java.core.lang.object.notify.producerconsumer;
 
 public class NotifyClient {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.henryxi.java.core.lang.object.notify;
+package com.henryxi.java.core.lang.object.notify.producerconsumer;
 
 import java.util.LinkedList;
 import java.util.List;

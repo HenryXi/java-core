@@ -1,4 +1,4 @@
-package com.henryxi.java.core.lang.object.notify;
+package com.henryxi.java.core.lang.object.notify.producerconsumer;
 
 public class Consumer implements Runnable {
     private String consumerName;
