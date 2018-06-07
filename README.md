@@ -40,6 +40,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java ThreadPoolExecutor example](http://www.henryxi.com/java-threadpoolexecutor-example)
 * [Java8 convert list to map](http://www.henryxi.com/java8-convert-list-to-map)
 * [Java8 stream map example](http://www.henryxi.com/java8-stream-map-example)
+* [Java8 stream flatMap example](http://www.henryxi.com/java8-stream-flatmap-example)
 * [Java8 stream collect list to map in order](http://www.henryxi.com/java8-stream-collect-list-to-map-in-order)
 * [Understand ThreadPoolExecutor core and maximum](http://www.henryxi.com/understand-threadpoolexecutor-core-and-maximum)
 * [Java Executors newCachedThreadPool example](http://www.henryxi.com/java-executors-newcachedthreadpool-example)
