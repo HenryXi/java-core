@@ -1,4 +1,4 @@
-package com.henryxi.core.util.collection.stream;
+package com.henryxi.core.util.stream;
 
 import java.util.Arrays;
 import java.util.List;

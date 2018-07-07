@@ -1,4 +1,6 @@
-package com.henryxi.core.util.collection.stream;
+package com.henryxi.core.util.stream.collectors;
+
+import com.henryxi.core.util.stream.User;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -6,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class StreamListToMapClient {
+public class CollectorsToMapClient {
     public static void main(String[] args) {
         List<User> users = new ArrayList<>();
         users.add(new User("henry", 28));

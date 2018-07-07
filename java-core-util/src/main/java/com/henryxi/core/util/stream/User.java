@@ -1,4 +1,4 @@
-package com.henryxi.core.util.collection.stream;
+package com.henryxi.core.util.stream;
 
 public class User {
     private String name;
