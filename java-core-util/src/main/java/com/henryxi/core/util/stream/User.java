@@ -1,4 +1,4 @@
-package com.henryxi.core.util.collection.stream;
+package com.henryxi.core.util.stream;
 
 public class User {
     private String name;
@@ -23,5 +23,13 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
