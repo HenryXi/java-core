@@ -44,6 +44,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java8 stream reduce example](http://www.henryxi.com/java8-stream-reduce-example)
 * [Java8 stream collect list to map in order](http://www.henryxi.com/java8-stream-collect-list-to-map-in-order)
 * [Java8 stream groupingBy example](http://www.henryxi.com/java8-stream-groupingby-example)
+* [Java8 add log in stream](http://www.henryxi.com/java8-add-log-in-stream)
 * [Java8 Collectors.partitioningBy example](http://www.henryxi.com/java8-collectorspartitioningby-example)
 * [Understand ThreadPoolExecutor core and maximum](http://www.henryxi.com/understand-threadpoolexecutor-core-and-maximum)
 * [Java Executors newCachedThreadPool example](http://www.henryxi.com/java-executors-newcachedthreadpool-example)
