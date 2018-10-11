@@ -9,6 +9,7 @@ N_t = N_c * U_c *(1 + W/C)
 * `N_c`: the number of CPU cores.
 * `U_c`: CPU usage.
 * `W/C`: CPU waiting time/CPU busy time.
+
 Here is a task.
 ```java
 public class Task {
