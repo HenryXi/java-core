@@ -55,9 +55,9 @@ calculate cost time:23082
 total time:24082
 ```
 From the output we can know CPU waiting time is 1 second and CPU busy time is 23 second. So the W/C = 1/23. My computer 
-use I7 CPU which have 8 cores. If we want CPU 50% busy the number of thread is: 8 * 50% (1+1/23) ≈ 4.
+uses I7 CPU which has 8 cores. If we want CPU 50% busy the number of thread is: 8 * 50% (1+1/23) ≈ 4.
 
-Let's verify this result. Refactor `Task` to implement `Runnable` and submit 4 task to thread pool. The code is here. 
+Let's verify this result. Refactor `Task` to implement `Runnable` and submit 4 tasks to thread pool. The code is here. 
 ```java
 public class RunnableTask implements Runnable {
 
