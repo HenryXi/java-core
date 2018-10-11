@@ -54,6 +54,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java retainAll example](http://www.henryxi.com/java-retainall-example)
 * [Java CopyOnWriteArrayList example](http://www.henryxi.com/java-copyonwritearraylist-example)
 * [Java ForkJoinPool example](http://www.henryxi.com/java-forkjoinpool-example)
+* [Java determine thread pool size](http://www.henryxi.com/java-determine-thread-pool-size)
 
 **`java.net`**
 
