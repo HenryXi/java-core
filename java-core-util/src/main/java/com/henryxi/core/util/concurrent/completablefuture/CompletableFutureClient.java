@@ -7,8 +7,6 @@ public class CompletableFutureClient {
     public static void main(String[] args) {
         Future<Integer> resultAsync1 = getResultAsync();
         Future<Integer> resultAsync2 = getResultAsync();
-
-
     }
 
     private static Future<Integer> getResultAsync() {
