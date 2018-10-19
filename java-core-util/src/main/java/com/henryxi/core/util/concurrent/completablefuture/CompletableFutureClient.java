@@ -14,11 +14,10 @@ public class CompletableFutureClient {
     private static AuthorService authorService = new AuthorService();
 
     public static void main(String[] args) {
-        List<Integer> contentsId = Arrays.asList(6, 8, 9, 66, 18, 99, 68, 89);
+        List<Integer> contentsId = Arrays.asList(6, 8, 9, 66, 18, 99, 68, 89, 100, 166);
         normalStream(contentsId);
         parallelStream(contentsId);
         completableFutureStream(contentsId);
-        //todo can not get the result with executors ?
         completableFutureStreamWithExecutors(contentsId);
     }
 
@@ -29,7 +28,7 @@ public class CompletableFutureClient {
                 .map(a -> authorService.getAuthor(a.getAuthorId()))
                 .collect(toList());
         long endTime = System.currentTimeMillis();
-        System.out.println("normalStream cost:" + (endTime - beginTime) + ", authors:" + authorList);
+        System.out.println("normalStream cost:" + (endTime - beginTime) + ", authors size:" + authorList.size());
     }
 
     private static void parallelStream(List<Integer> contentsId) {
@@ -39,7 +38,7 @@ public class CompletableFutureClient {
                 .map(a -> authorService.getAuthor(a.getAuthorId()))
                 .collect(toList());
         long endTime = System.currentTimeMillis();
-        System.out.println("parallelStream cost:" + (endTime - beginTime) + ", authors:" + authorList);
+        System.out.println("parallelStream cost:" + (endTime - beginTime) + ", authors size:" + authorList.size());
     }
 
     private static void completableFutureStream(List<Integer> contentsId) {
@@ -50,14 +49,14 @@ public class CompletableFutureClient {
                 .collect(toList());
         List<Author> authorList = authorsFutures.stream().map(CompletableFuture::join).collect(toList());
         long endTime = System.currentTimeMillis();
-        System.out.println("completableFutureStream cost:" + (endTime - beginTime) + ", authors:" + authorList);
+        System.out.println("completableFutureStream cost:" + (endTime - beginTime) + ", authors size:" + authorList.size());
     }
 
     private static void completableFutureStreamWithExecutors(List<Integer> contentsId) {
         final Executor executor =
                 Executors.newFixedThreadPool(Math.min(contentsId.size(), 100), r -> {
-                    Thread t = new Thread();
-//                    t.setDaemon(true);
+                    Thread t = new Thread(r);
+                    t.setDaemon(true);
                     return t;
                 });
         long beginTime = System.currentTimeMillis();
@@ -67,6 +66,6 @@ public class CompletableFutureClient {
                 .collect(toList());
         List<Author> authorList = authorsFutures.stream().map(CompletableFuture::join).collect(toList());
         long endTime = System.currentTimeMillis();
-        System.out.println("completableFutureStreamWithExecutors cost:" + (endTime - beginTime) + ", authors:" + authorList);
+        System.out.println("completableFutureStreamWithExecutors cost:" + (endTime - beginTime) + ", authors size:" + authorList.size());
     }
 }
