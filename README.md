@@ -55,6 +55,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java CopyOnWriteArrayList example](http://www.henryxi.com/java-copyonwritearraylist-example)
 * [Java ForkJoinPool example](http://www.henryxi.com/java-forkjoinpool-example)
 * [Java determine thread pool size](http://www.henryxi.com/java-determine-thread-pool-size)
+* [Java convert list to array](http://www.henryxi.com/java-convert-list-to-array)
 
 **`java.net`**
 
