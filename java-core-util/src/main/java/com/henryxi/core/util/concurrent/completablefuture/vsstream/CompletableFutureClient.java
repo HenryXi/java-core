@@ -1,4 +1,4 @@
-package com.henryxi.core.util.concurrent.completablefuture;
+package com.henryxi.core.util.concurrent.completablefuture.vsstream;
 
 import java.util.Arrays;
 import java.util.List;

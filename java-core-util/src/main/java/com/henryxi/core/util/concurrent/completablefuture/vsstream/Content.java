@@ -1,4 +1,4 @@
-package com.henryxi.core.util.concurrent.completablefuture;
+package com.henryxi.core.util.concurrent.completablefuture.vsstream;
 
 public class Content {
     private String content;
