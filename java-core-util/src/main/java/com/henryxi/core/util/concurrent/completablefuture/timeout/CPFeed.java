@@ -1,6 +1,6 @@
-package com.henryxi.core.util.concurrent.completablefuture.vsstream;
+package com.henryxi.core.util.concurrent.completablefuture.timeout;
 
-public class Content {
+public class CPFeed {
     private String content;
     private int authorId;
 

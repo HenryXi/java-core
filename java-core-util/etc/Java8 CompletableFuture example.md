@@ -1,11 +1,11 @@
 # Java8 CompletableFuture example
 We can use `stream().parallel()` to handle tasks in multi-thread. `CompletableFuture` is very useful when you handle tasks
-which need to wait IO or network. Let's say you have two services. The one is getting content by contentId and another is
+which need to wait IO or network. Let's say you have two services. The one is getting CPFeed by contentId and another is
 getting author information by authorId. Both of them need RPC. In other words, you have to wait the remote server responses.
 I use `Thread.sleep()` to mock network delays.
 ```java
 public class Content {
-    private String content;
+    private String CPFeed;
     private int authorId;
 
     //getter and setter
@@ -18,10 +18,10 @@ public class ContentService {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        Content content = new Content();
-        content.setAuthorId(contentId);
-        content.setContent("This is content of " + contentId);
-        return content;
+        Content CPFeed = new Content();
+        CPFeed.setAuthorId(contentId);
+        CPFeed.setContent("This is CPFeed of " + contentId);
+        return CPFeed;
     }
 }
 
@@ -85,7 +85,7 @@ public class CompletableFutureClient {
         long beginTime = System.currentTimeMillis();
         List<CompletableFuture<Author>> authorsFutures = contentsId.stream()
                 .map(i -> CompletableFuture.supplyAsync(() -> contentService.getContent(i)))
-                .map(future -> future.thenCompose(content -> CompletableFuture.supplyAsync(() -> authorService.getAuthor(content.getAuthorId()))))
+                .map(future -> future.thenCompose(CPFeed -> CompletableFuture.supplyAsync(() -> authorService.getAuthor(CPFeed.getAuthorId()))))
                 .collect(toList());
         List<Author> authorList = authorsFutures.stream().map(CompletableFuture::join).collect(toList());
         long endTime = System.currentTimeMillis();
@@ -102,7 +102,7 @@ public class CompletableFutureClient {
         long beginTime = System.currentTimeMillis();
         List<CompletableFuture<Author>> authorsFutures = contentsId.stream()
                 .map(i -> CompletableFuture.supplyAsync(() -> contentService.getContent(i), executor))
-                .map(future -> future.thenCompose(content -> CompletableFuture.supplyAsync(() -> authorService.getAuthor(content.getAuthorId()), executor)))
+                .map(future -> future.thenCompose(CPFeed -> CompletableFuture.supplyAsync(() -> authorService.getAuthor(CPFeed.getAuthorId()), executor)))
                 .collect(toList());
         List<Author> authorList = authorsFutures.stream().map(CompletableFuture::join).collect(toList());
         long endTime = System.currentTimeMillis();
