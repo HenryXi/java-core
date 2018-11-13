@@ -4,6 +4,7 @@ import java.util.UUID;
 
 public class UUIDClient {
     public static void main(String[] args) {
-        System.out.println(UUID.randomUUID().toString());
+        System.out.println(300/289);
+
     }
 }
