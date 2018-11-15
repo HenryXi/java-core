@@ -16,6 +16,7 @@
         <module>java-core-net</module>
         <module>java-core-misc</module>
         <module>java-core-time</module>
+        <module>java-core-text</module>
     </modules>
     <packaging>pom</packaging>
     <build>
