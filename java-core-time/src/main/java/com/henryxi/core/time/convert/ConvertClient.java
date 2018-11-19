@@ -13,17 +13,5 @@ public class ConvertClient {
         Date date2 = Date.from(localDateTime.toInstant(ZoneOffset.ofHours(8)));
         System.out.println(date1);
         System.out.println(date2);
-        findTxnDate();
-    }
-
-    private static SimpleDateFormat simpleDateFormatTimestampJPOS = new SimpleDateFormat("yyyyMMddHHmmssSSS");
-
-    private static Date findTxnDate() throws ParseException
-    {
-        Date date;
-        String timeStamp = "20181115040613555";
-        date = simpleDateFormatTimestampJPOS.parse(timeStamp);
-
-        return date;
     }
 }
