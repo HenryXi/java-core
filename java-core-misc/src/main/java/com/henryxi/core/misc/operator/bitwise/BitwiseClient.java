@@ -1,4 +1,4 @@
-package com.henryxi.core.misc.bitwise;
+package com.henryxi.core.misc.operator.bitwise;
 
 public class BitwiseClient {
     public static void main(String[] args) {
