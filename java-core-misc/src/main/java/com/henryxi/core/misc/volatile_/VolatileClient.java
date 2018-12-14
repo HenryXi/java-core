@@ -1,7 +1,7 @@
 package com.henryxi.core.misc.volatile_;
 
 public class VolatileClient {
-    public static int[] arr = new int[20];
+    public volatile static int[] arr = new int[20];
     
 
     public static void main(String[] args) throws Exception {
