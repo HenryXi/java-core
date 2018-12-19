@@ -68,6 +68,10 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java8 parse string to LocalDateTime](http://www.henryxi.com/java8-parse-string-to-localdatetime)
 * [Java8 parse string to LocalDateTime](http://www.henryxi.com/java8-convert-localdatetime-to-date)
 
+**`java.security`**
+
+* [Java RSA encrypt decrypt example](http://www.henryxi.com/java-rsa-encrypt-decrypt-example)
+
 **misc**
 
 * [Java initializing fields order](http://www.henryxi.com/java-initializing-fields-order)
