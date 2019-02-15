@@ -10,6 +10,7 @@ public class StreamFilterClient {
         users.add(new User("henry", 28));
         users.add(new User("justin", 27));
         users.add(new User("Mathew", 26));
-        users.stream().filter(user -> user.getName().equals("")).collect(Collectors.toList());
+        List<User> collect = users.stream().filter(user -> user.getName().equals("")).collect(Collectors.toList());
+        System.out.println(collect);
     }
 }
