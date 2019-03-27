@@ -58,6 +58,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java determine thread pool size](http://www.henryxi.com/java-determine-thread-pool-size)
 * [Java convert list to array](http://www.henryxi.com/java-convert-list-to-array)
 * [Java8 CompletableFuture example](http://www.henryxi.com/java8-completablefuture-example)
+* [Java8 CompletableFuture concurrence example](http://www.henryxi.com/java8-completablefuture-concurrence-example)
 
 **`java.net`**
 
