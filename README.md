@@ -47,6 +47,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java8 stream groupingBy example](http://www.henryxi.com/java8-stream-groupingby-example)
 * [Java8 add log in stream](http://www.henryxi.com/java8-add-log-in-stream)
 * [Java8 Collectors.partitioningBy example](http://www.henryxi.com/java8-collectorspartitioningby-example)
+* [Java8 Collectors.mapping example](http://www.henryxi.com/java8-collectorsmapping-example)
 * [Understand ThreadPoolExecutor core and maximum](http://www.henryxi.com/understand-threadpoolexecutor-core-and-maximum)
 * [Java Executors newCachedThreadPool example](http://www.henryxi.com/java-executors-newcachedthreadpool-example)
 * [Java Executors newFixedThreadPool example](http://www.henryxi.com/java-executors-newfixedthreadpool-example)
