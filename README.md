@@ -22,6 +22,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java clone example](http://www.henryxi.com/java-clone-example)
 * [Java understand daemon thread](http://www.henryxi.com/java-understand-daemon-thread)
 * [Java understand IncompatibleClassChangeError](http://www.henryxi.com/java-understand-incompatibleclasschangeerror)
+* [Java stack trace disappear](http://www.henryxi.com/java-stack-trace-disappear)
 
 **`java.math`**
 
