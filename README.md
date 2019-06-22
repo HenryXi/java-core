@@ -65,6 +65,7 @@ This series of blog describes mainly how to use common classes of JDK.
 **`java.net`**
 
 * [Java URL decode encode example](http://www.henryxi.com/java-url-decode-encode-example)
+* [Java get local address example](http://www.henryxi.com/java-get-local-address-example)
 
 **`java.time`**
 
