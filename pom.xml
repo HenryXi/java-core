@@ -17,6 +17,7 @@
         <module>java-core-misc</module>
         <module>java-core-time</module>
         <module>java-core-text</module>
+        <module>java-core-awt</module>
     </modules>
     <packaging>pom</packaging>
     <build>
