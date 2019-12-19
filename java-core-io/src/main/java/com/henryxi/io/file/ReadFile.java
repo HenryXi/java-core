@@ -1,4 +1,4 @@
-package com.henryxi.io;
+package com.henryxi.io.file;
 
 
 import java.io.BufferedReader;
