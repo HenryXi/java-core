@@ -19,7 +19,6 @@
         <module>java-core-text</module>
         <module>java-core-awt</module>
         <module>java-core-ref</module>
-        <module>java-core-ref</module>
     </modules>
     <packaging>pom</packaging>
     <build>
