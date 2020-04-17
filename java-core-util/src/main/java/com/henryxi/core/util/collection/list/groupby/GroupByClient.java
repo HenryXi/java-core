@@ -1,4 +1,4 @@
-package com.henryxi.core.util.collection.list;
+package com.henryxi.core.util.collection.list.groupby;
 
 import java.util.ArrayList;
 import java.util.HashMap;
