@@ -1,6 +1,5 @@
-package com.henryxi.core.util.concurrent.reentrant;
+package com.henryxi.core.util.locks.reentrant.simple;
 
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 

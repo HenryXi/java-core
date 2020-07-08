@@ -1,4 +1,4 @@
-package com.henryxi.core.util.locks;
+package com.henryxi.core.util.locks.readwrite;
 
 public class ReadWriteLockClient {
     public static void main(String[] args) {

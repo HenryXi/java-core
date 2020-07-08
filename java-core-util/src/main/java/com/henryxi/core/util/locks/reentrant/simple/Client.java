@@ -1,4 +1,4 @@
-package com.henryxi.core.util.concurrent.reentrant;
+package com.henryxi.core.util.locks.reentrant.simple;
 
 public class Client {
     public static void main(String[] args) {

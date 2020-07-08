@@ -1,4 +1,4 @@
-package com.henryxi.core.util.locks;
+package com.henryxi.core.util.locks.readwrite;
 
 import java.util.Random;
 import java.util.concurrent.locks.Lock;
