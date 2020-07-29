@@ -1,0 +1,2 @@
+# Java ReentrantLock lockInterruptibly example
+In the case of using `synchronized`, the thread in the blocking state can be interrupted.
