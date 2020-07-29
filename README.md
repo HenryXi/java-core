@@ -64,6 +64,7 @@ This series of blog describes mainly how to use common classes of JDK.
 * [Java8 CompletableFuture example](http://www.henryxi.com/java8-completablefuture-example)
 * [Java8 CompletableFuture concurrence example](http://www.henryxi.com/java8-completablefuture-concurrence-example)
 * [Java8 CompletableFuture runAsync allof example](http://www.henryxi.com/java8-completablefuture-runasync-allof-example)
+* [Java8 understand stream filter](http://www.henryxi.com/java8-understand-stream-filter)
 
 **`java.net`**
 
