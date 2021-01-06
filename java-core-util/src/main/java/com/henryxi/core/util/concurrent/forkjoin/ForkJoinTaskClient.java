@@ -22,7 +22,6 @@ public class ForkJoinTaskClient {
         ForkJoinPool forkJoinPool = ForkJoinPool.commonPool();
         return forkJoinPool.invoke(new CountTask(begin, end));
     }
-
     private static Long computeDirectly(long begin, long end) {
         long sum = 0;
         do {
