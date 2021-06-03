@@ -75,7 +75,7 @@ This series of blog describes mainly how to use common classes of JDK.
 
 * [Java8 calculate time difference milliseconds](http://www.henryxi.com/java8-calculate-time-difference-milliseconds)
 * [Java8 parse string to LocalDateTime](http://www.henryxi.com/java8-parse-string-to-localdatetime)
-* [Java8 parse string to LocalDateTime](http://www.henryxi.com/java8-convert-localdatetime-to-date)
+* [Java8 convert LocalDateTime to Date](http://www.henryxi.com/java8-convert-localdatetime-to-date)
 
 **`java.security`**
 
