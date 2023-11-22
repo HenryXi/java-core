@@ -5,7 +5,7 @@ This series of blog describes mainly how to use common classes of JDK.
 
 * [Java delete file example](http://www.henryxi.com/java-delete-file-example)
 * [Java serialization when object changed](http://www.henryxi.com/java-serialization-when-object-changed)
-* [Java large file line by line read example](http://www.henryxi.com/java-serialization-when-object-changed)
+* [Java large file line by line read example](http://www.henryxi.com/java-large-file-line-by-line-read-example)
 
 **`java.lang`**
 
